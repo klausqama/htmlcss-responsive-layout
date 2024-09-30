@@ -26,6 +26,14 @@ img {
 }
 
 /* layout*/
+body{
+    font-family: Montserrat, ‘Helvetica Neue’, sans-serif;
+
+}
+main {
+    background-color: #F6F5F3;
+} 
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -53,7 +61,7 @@ img {
     border-radius: 999px;
     padding: 0 17px;
     font-size: 18px;
-    background-color: lightblue;
+    background-color: white;
     color: black; 
 }
 .row .icons .btn{
@@ -61,4 +69,65 @@ img {
 }
 .ads-bunner{
     margin: 0 15px 0 15px;
+}
+
+/*header*/
+
+.main-title{
+     
+        font-family: "Nerko One", cursive;
+        color: #F88400;
+        font-size: 50px;
+        display: block;
+        padding: 20px;
+        text-align: left;
+}
+
+/*hero*/
+.hero{
+    padding-top: 40px;
+    
+
+}
+.type-category{
+    color: #999999;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.hero-title{
+    font-size: 50px;
+    padding: 10px 0px;
+    color: #4E3969;
+}
+
+.side-col{
+    background-color: white;
+    padding: 20px;
+   
+} 
+.container-row {
+    box-shadow: 0px 1px 5px 0px;
+}
+.hero-list{
+    padding-top: 40px;
+}
+.hero-list li{
+    padding-top: 20px;
+}
+
+/*icons*/
+
+.icons {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.icons i {
+    padding-right: 10px;
 }

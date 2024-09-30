@@ -7,18 +7,27 @@
     <title>htmlcss-responsive-layout giallo boolando</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/05403e2b87.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    <header class=" debug header">
+    <!--sezione navabar-->
+
+    <header class=" header">
         <section class="navbar">
             <div class="container">
                 <h1 class="main-title">Giallo boolando</h1>
             </div>
         </section>
     </header>
+
+    <!--sezione card hero-->
+
     <main>
-        <div class=" debug hero">
+        <div class="hero">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -28,14 +37,16 @@
                         <h1 class="hero-title">
                             Tiramisù (Dolce tradizionale)
                         </h1>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-9">
-                                    <figure>
+                            <div class="row container-row">
+                                <div class="main-col col-9">
+                                    <!-- <figure>
                                         <img src="./img/image.png" alt="">
-                                    </figure>
+                                    </figure> -->
+
+                                      <iframe src="https://www.youtube.com/watch?v=JVT900H6s0g" title="video youtube"></iframe>
+
                                 </div>
-                                <div class="col-3">
+                                <div class="col-3 side-col">
                                     <h3><strong>In breve</strong></h3>
                                     <ul class="hero-list">
                                         <li>Difficoltà: <strong>Facile</strong></li>
@@ -46,11 +57,13 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--sezione btn icone-->
+
         <div>
             <div class="container">
                 <div class="row">
@@ -64,11 +77,28 @@
                 </div>
             </div>
         </div>
+
+        <!--sezione banner ads-->
+
         <div class="container">
             <div class="row">
                 <figure class="ads-banner">
                     <img src="./img/banner.png" alt="banner">
                 </figure>
+            </div>
+        </div>
+
+        <!--sezione presentacion-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Presentacion</h3>
+                    <figure class="img-presentacion">
+                        <img src="img/tiramisu.jpg" alt="tiramisu">
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis expedita provident dolorem molestias quidem illum quibusdam iusto veniam dolorum, iure inventore reiciendis beatae iste? Iste, eum? Non vero illum eligendi mollitia! Repellendus aspernatur quos exercitationem molestiae pariatur sapiente ut aliquam. Mollitia quae quos recusandae animi expedita ullam, distinctio cupiditate! Dolore!</p>
+                </div>
             </div>
         </div>
     </main>
