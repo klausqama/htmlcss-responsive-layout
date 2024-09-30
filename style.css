@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*reset rules*/
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+.debug * {
+  background-color: lightgrey;
+  border: 2px dashed black;
+  padding: 10px;
+  min-height: 50px;}
