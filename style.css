@@ -23,3 +23,17 @@ img{
   border: 2px dashed black;
   padding: 10px;
   min-height: 50px;}
+
+  /* layout*/
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .col-12{
+    width: 100%;
+ }
+ 
