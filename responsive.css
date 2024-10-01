@@ -1,0 +1,42 @@
+/* MOBILE  */
+@media (max-width: 768px) {
+
+    .main-title{
+        text-align: center;
+    }
+
+    .container-row {
+        flex-direction: column;
+    }
+
+    .icons i {
+        padding: 0;
+    }
+
+    .icons span {
+        display: none;
+    }
+
+    .hero-title{
+        font-size: 30px
+    }
+    
+
+}
+/* TABLET  */
+@media (min-width: 769px) and (max-width: 992px){
+    .hero-list li {
+        display: inline-block;
+        padding-top: 20px;
+        width: 200px;
+    }
+    .container-row {
+        flex-direction: column;
+    }
+    .icons i {
+        padding: 0;
+    }
+    .icons span {
+        display: none;
+    }
+}
